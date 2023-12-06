@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+     background-color: #7e81a7;
+     padding-top: 0;
+     margin-top: 0;
+     background-size: cover;
+	background-position: center;
+     width: 100%;
+	height: 80vh;
+    
+     background-image: url('maximilian-weisbecker-Esq0ovRY-Zs-unsplash.jpg');
+     background-size: cover;
+}
+.mainnav{
+     display: inline-block;
+     padding: 40px;
+     margin-left: 350px;
+    
+    
+}
+.mainnav ul li{
+     list-style: none;
+	display: inline-block;
+	margin: 0  10px;
+	position: relative;
+     font-size: 20px;
+     
+    
+     
+}
+.mainnav ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+     color: black;
+     
+}
+
+.mainnav ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background:red;
+	position: absolute;
+	left: 0; 
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.mainnav ul li:hover::after{
+	width: 100%;
+}
+form{
+     text-align: center;
+     padding: 10px;
+}
+input[type=text] {
+     width: 30%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: 2px solid red;
+     border-radius: 10px;
+   }
+   
+.nav h1{
+     text-align: center;
+     padding: 10px;
+}
+
+.section1{
+     background-color: #8e9699;
+     padding: 50px;
+     margin-top: -18px;
+     display: flex;
+     gap:160px;
+     height: 350px;
+     
+}
+.subsection11{
+ padding: 20px;
+ width: 40%;
+}
+.subsection12{
+     padding: 20px;
+     width: 45%;
+}
+.subsection13{
+     padding: 20px;
+     width: 40%;
+}
+.subsection14{
+     padding: 20px;
+     margin-left: 25px;
+     width: 25%;
+}
+
+.section2{
+     background-color: #a58989;
+     display: flex; 
+     padding: 100px;
+     gap: 240px;
+     
+}
+.subsection21{
+     background-color: #5c9e7b;
+     width: 550px;
+     padding: 100px;
+     border-radius: 20px;
+     height: 550px;
+     
+     
+}
+.subsection21 h3{
+     margin-left: 20px;
+}
+.subsection22{
+     background-color: #da4e5a;
+     width: 550px;
+     padding: 100px;
+     border-radius: 20px;
+     height: 550px;
+     
+}
+.subsection23{
+     background-color: #5c9e7b;
+     width: 550px;
+     padding: 100px;
+     border-radius: 20px;
+     height: 550px;
+     
+}
+.last{
+     background-color: #7e81a7;
+     height: 250px;
+     display: flex;
+     gap:40px;
+}.about{
+     padding: 50px;
+     width: 25%;
+}
+.about1{
+     padding: 50px;
+     width: 25%;
+}
+.about2{
+     padding: 50px;
+     width: 25%;
+}
+.about3{
+     padding: 50px;
+     width: 25%;
+}
+.about3 h3{
+     text-align: center;
+     color: white;
+}
+
+.about2 h3{
+     margin-left: 30px;
+     color: white;
+}
+.about1 h3{
+   color: white;
+}
+.about h3{
+     color: white;
+     margin-left: 50px;
+}
+img{
+     height: 50px;
+     width: 50px;
+}
+.routeimg{
+     margin-left: 150px;
+}
+.cabinimg{
+     margin-left: 70px;
+     height: 50px;
+     width: 60px;
+    
+}
+.passimg{
+     margin-left: -10px;
+}
+.passimg img{
+      height: 120px;
+      width: 120px;
+}
+.staffimg{
+     margin-left: -10px;
+}
+.staffimg img{
+      height: 120px;
+      width: 120px;
+}
+p{
+     padding: 10px;
+}
+h1{
+
+     color:black;
+}
